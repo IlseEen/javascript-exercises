@@ -6,7 +6,6 @@ const removeFromArray = function( ) {
         if (inputArray.includes(argsArray[i])) {
         inputArray.splice(inputArray.indexOf(argsArray[i]),1);
         }
-
     }
     return(inputArray);
 };
